@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +19,48 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <header>
-        <h1>Hello</h1>
+<body class="manrope-font">
+    <header class="py-10">
+        <nav class="w-11/12 mx-auto">
+            <div class="flex items-center justify-between ">
+                <div>
+                    <div class="flex items-center">
+
+                        <i class="fa-solid text-xl fa-arrow-right -rotate-45 primary-bg px-3 py-2 rounded-full mr-2"></i>
+                        <a class="btn-ghost text-3xl font-extrabold ">Rinterio</a>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <ul tabindex="0" class="flex gap-6 p-2 text-base font-normal text-[#737373]">
+                        <li class="text-[#494949]"><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center">
+
+                    <i class="fa-solid text-[#737373] fa-magnifying-glass text-xl md:mr-6 lg:mr-8 hidden md:block"></i>
+                    <i class="fa-solid text-[#737373] fa-cart-shopping text-xl md:mr-6 lg:mr-8 hidden md:block"></i>
+                    <div class="hidden md:block">
+                        <a class="btn rounded-3xl text-xl font-extrabold text-[#1C1C1C] bg-[#ABEF5F] ">Book Consult
+
+                            <div class="bg-black rounded-full px-2  py-1 ">
+                                <i
+                                class="fa-solid fa-arrow-right text-white  -rotate-45 "></i>
+                            </div>
+    
+                        </a>
+                    </div>
+                    <i class="fa-solid fa-bars text-3xl ml-4 lg:hidden"></i>
+
+                </div>
+            </div>
+
+            
+              
+        </nav>
     </header>
     <main>
 
